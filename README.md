@@ -5,8 +5,8 @@
 ### Double Squash Knock Off Ribena
 Fluid, can (when combined with juice box) make filled juice box.
 
-## Warden's War-den
+### Warden's War-den
 Den where you find warden(s).
 
-## Server Man (Technically Woman) Boss
+### Server Man (Technically Woman) Boss
 Is Boss.
