@@ -7,7 +7,7 @@
   "description": "This is NOT an example description! Tell everyone what your mod isn't about!",
   "authors": [
     "TotallyNotThomas",
-    "JayJay0810 (Mr Gaming)"
+    "JayJay0810 (AKA Mr Gaming & JayJayGankGunk)"
   ],
   "contact": {
     "homepage": "https://www.cornhub.com",
@@ -15,7 +15,7 @@
   },
 
   "license": "All Rights Reserved",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/gank/icon.png",
 
   "environment": "*",
   "entrypoints": {
