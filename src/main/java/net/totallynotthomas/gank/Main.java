@@ -27,6 +27,7 @@ public class Main implements ModInitializer {
     public static final Block SHULK_ORE = new ShulkOreBlock();
     public static final Item SHULK_BAR = new Item(new FabricItemSettings().group(ItemGroup.MISC));
 
+    //region Configure Shulk Ore generation
     private static final ConfiguredFeature<?, ?> GEN_SHULK_ORE = Feature.ORE
             .configure(new OreFeatureConfig(
                     new BlockMatchRuleTest(Blocks.END_STONE), // Base block is end stone in The End biomes
@@ -36,6 +37,7 @@ public class Main implements ModInitializer {
                     UniformHeightProvider.create(YOffset.fixed(20), YOffset.fixed(25))))
             .spreadHorizontally()
             .repeat(4); // Veins per chunk
+    //endregion
 
     @Override
     public void onInitialize() {
