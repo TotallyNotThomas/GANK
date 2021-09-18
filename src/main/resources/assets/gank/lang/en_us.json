@@ -1,4 +1,6 @@
 {
   "block.gank.shulk_ore": "Shulk Ore",
-  "item.gank.shulk_bar": "Shulk Bar"
+  "item.gank.shulk_bar": "Shulk Bar",
+  "item.gank.gank_ingot": "Gank Ingot",
+  "block.gank.gank_ore": "Gank Ore"
 }

@@ -22,12 +22,15 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraft.world.gen.heightprovider.UniformHeightProvider;
 import net.totallynotthomas.gank.blocks.ShulkOreBlock;
 import net.totallynotthomas.gank.fluids.KnockOffJuice;
+import net.totallynotthomas.gank.blocks.GankOreBlock;
 
 import static net.fabricmc.fabric.impl.networking.NetworkingImpl.MOD_ID;
 
 public class Main implements ModInitializer {
     public static final Block SHULK_ORE = new ShulkOreBlock();
+    public static final Block GANK_ORE = new GankOreBlock();
     public static final Item SHULK_BAR = new Item(new FabricItemSettings().group(ItemGroup.MISC));
+    public static final Item GANK_INGOT = new Item(new FabricItemSettings().group(ItemGroup.MISC));
     public static FlowableFluid STILL_DOUBLE_SQUASH_KNOCKOFF_JUICE;
     public static FlowableFluid FLOWING_DOUBLE_SQUASH_KNOCKOFF_JUICE;
     public static Item KNOCKOFF_DOUBLE_SQUASH_JUICE_BUCKET;
@@ -47,9 +50,15 @@ public class Main implements ModInitializer {
     @Override
     public void onInitialize() {
         System.out.println("GANK has initialized!");
+
         Registry.register(Registry.BLOCK, new Identifier("gank", "shulk_ore"), SHULK_ORE);
-        Registry.register(Registry.ITEM, new Identifier("gank", "shulk_ore"), new BlockItem(SHULK_ORE, new Item.Settings().group(ItemGroup.MATERIALS)));
+        Registry.register(Registry.BLOCK, new Identifier("gank", "gank_ore"), GANK_ORE);
+
         Registry.register(Registry.ITEM, new Identifier("gank", "shulk_bar"), SHULK_BAR);
+        Registry.register(Registry.ITEM, new Identifier("gank", "gank_ingot"), GANK_INGOT);
+
+        Registry.register(Registry.ITEM, new Identifier("gank", "gank_ore"), new BlockItem(GANK_ORE, new FabricItemSettings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier("gank", "shulk_ore"), new BlockItem(SHULK_ORE, new FabricItemSettings().group(ItemGroup.MISC)));
 
         //region Knock Off Juice Stuff
         STILL_DOUBLE_SQUASH_KNOCKOFF_JUICE = Registry.register(Registry.FLUID, new Identifier(MOD_ID, "still_double_squash_knockoff_juice"), new KnockOffJuice());
