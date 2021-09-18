@@ -1,5 +1,7 @@
 # GANK (Gamers And Nice Kaleidoscopes)
 
+Textures drawn by @JayJay0810
+
 ## Things To Add
 
 ### Double Squash Knock Off Ribena
