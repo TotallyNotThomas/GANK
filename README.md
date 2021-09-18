@@ -1,7 +1,5 @@
 # GANK (Gamers And Nice Kaleidoscopes)
 
-Textures drawn by @JayJay0810
-
 ## Things To Add
 
 ### Double Squash Knock Off Ribena
@@ -12,3 +10,6 @@ Den where you find warden(s).
 
 ### Server Man (Technically Woman) Boss
 Is Boss.
+
+Most textures Drawn by JayJay0810
+Programming and a few textures by TotallyNotThomas
