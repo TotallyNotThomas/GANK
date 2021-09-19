@@ -8,5 +8,4 @@ public class GankIngotItem extends Item {
     public GankIngotItem() {
         super(new FabricItemSettings().group(ItemGroup.MATERIALS));
     }
-
 }
