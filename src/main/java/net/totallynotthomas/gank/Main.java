@@ -40,7 +40,7 @@ public class Main implements ModInitializer {
     public static final ArmorMaterial GANK_ARMOUR_MATERIAL = new GankArmour();
     public static final Item GANK_ARMOUR_CROWN = new ArmorItem(GANK_ARMOUR_MATERIAL, EquipmentSlot.HEAD,new Item.Settings());
     public static final Item GANK_ARMOUR_HOODIE = new ArmorItem(GANK_ARMOUR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings());
-    public static final Item GANK_ARMOUR_JEANS = new ArmorItem(GANK_ARMOUR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings());
+    public static final Item GANK_ARMOUR_TROUSERS = new ArmorItem(GANK_ARMOUR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings());
     public static final Item GANK_ARMOUR_SHOES = new ArmorItem(GANK_ARMOUR_MATERIAL, EquipmentSlot.FEET, new Item.Settings());
 
     public static final Block SHULK_ORE = new ShulkOreBlock();
@@ -86,7 +86,7 @@ public class Main implements ModInitializer {
         //region Register Gank Items
         Registry.register(Registry.ITEM, new Identifier("gank", "gank_crown"), GANK_ARMOUR_CROWN);
         Registry.register(Registry.ITEM, new Identifier("gank", "gank_hoodie"), GANK_ARMOUR_HOODIE);
-        Registry.register(Registry.ITEM, new Identifier("gank", "gank_jeans"), GANK_ARMOUR_JEANS);
+        Registry.register(Registry.ITEM, new Identifier("gank", "gank_jeans"), GANK_ARMOUR_TROUSERS);
         Registry.register(Registry.ITEM, new Identifier("gank", "gank_shoes"), GANK_ARMOUR_SHOES);
 
         Registry.register(Registry.BLOCK, new Identifier("gank", "gankium_ore"), GANKIUM_ORE);
