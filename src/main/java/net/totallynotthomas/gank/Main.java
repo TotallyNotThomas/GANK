@@ -86,7 +86,7 @@ public class Main implements ModInitializer {
         //region Register Gank Items
         Registry.register(Registry.ITEM, new Identifier("gank", "gank_crown"), GANK_ARMOUR_CROWN);
         Registry.register(Registry.ITEM, new Identifier("gank", "gank_hoodie"), GANK_ARMOUR_HOODIE);
-        Registry.register(Registry.ITEM, new Identifier("gank", "gank_jeans"), GANK_ARMOUR_TROUSERS);
+        Registry.register(Registry.ITEM, new Identifier("gank", "gank_trousers"), GANK_ARMOUR_TROUSERS);
         Registry.register(Registry.ITEM, new Identifier("gank", "gank_shoes"), GANK_ARMOUR_SHOES);
 
         Registry.register(Registry.BLOCK, new Identifier("gank", "gankium_ore"), GANKIUM_ORE);
