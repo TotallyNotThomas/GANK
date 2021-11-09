@@ -1,0 +1,6 @@
+{
+  "parent":"item/generated",
+  "textures":{
+    "layer0":"gank:item/double_squash_knockoff_blackcurrant_squash_juice_box"
+  }
+}

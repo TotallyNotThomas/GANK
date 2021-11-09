@@ -8,5 +8,4 @@ public class ShulkBarItem extends Item {
     public ShulkBarItem() {
         super(new FabricItemSettings().group(ItemGroup.MATERIALS));
     }
-
 }

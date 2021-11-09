@@ -1,0 +1,12 @@
+{
+  "dskobs_drink": {
+    "subtitle": "subtitles.gank.drink_juice",
+    "sounds": [
+      "gank:dskobs_drink_1",
+      "gank:dskobs_drink_2",
+      "gank:dskobs_drink_3",
+      "gank:dskobs_drink_4"
+    ]
+  }
+}
+

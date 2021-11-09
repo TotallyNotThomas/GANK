@@ -1,7 +1,15 @@
 {
   "block.gank.shulk_ore": "Shulk Ore",
   "item.gank.shulk_bar": "Shulk Bar",
-  "item.gank.gank_ingot": "Gank Ingot",
-  "block.gank.gank_ore": "Gank Ore",
-  "block.gank.gank_ore.tooltip": "Please don't smelt me..."
+  "item.gank.gankium_ingot": "Gankium Ingot",
+  "block.gank.gankium_ore": "Gankium Ore",
+  "block.gank.gank_ore.tooltip": "Please don't smelt me...",
+  "item.gank.gank_hat": "Gank Hat",
+  "item.gank.gank_hoodie": "Gank Hoodie",
+  "item.gank.gank_jeans": "Gank Jeans",
+  "item.gank.gank_shoes": "Gank Shoes",
+  "item.gank.shulk_sword": "Shulk Sword",
+
+  "item.gank.double_squash_knockoff_blackcurrant_squash_juice_box": "Double Squash Knock-off Blackcurrant Squash Juice Box",
+  "subtitles.gank.drink_juice": "Drink that gooood goooooood"
 }
