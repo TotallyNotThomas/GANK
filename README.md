@@ -5,9 +5,6 @@
 ### Double Squash Knock Off Blackcurrant Squash
 Fluid, can (when combined with juice box) make filled juice box.
 
-### Warden's War-den
-Den where you find warden(s).
-
 ### Server Man (Technically Woman) Boss
 Is Boss.
 ##
